@@ -1,0 +1,18 @@
+name: lstm-ids
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26
+  - pandas=2.2
+  - scikit-learn=1.5
+  - matplotlib=3.9
+  - seaborn=0.13
+  - scipy=1.12
+  - tqdm=4.66
+  - requests=2.32
+  - pip:
+      - tensorflow==2.15.0
+      - PyYAML==6.0.2
+      - joblib==1.4.2
